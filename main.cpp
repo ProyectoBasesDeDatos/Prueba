@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     regex reg("[a-z]+");
-    if (regex_match("helloworld",reg)){
+    if (regex_match("HolaMundo",reg)){
         cout<<"Si"<<endl;
     }else{
         cout<<"No"<<endl;
